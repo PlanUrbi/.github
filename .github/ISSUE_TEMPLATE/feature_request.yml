@@ -1,0 +1,51 @@
+name: Feature Request
+description: New feature or improvement to existing functionality
+title: "[Feature] <short description>"
+labels: [enhancement, needs-triage]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Help us understand what you'd like to see in this project!
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Feature Description
+      description: What do you want to add or improve?
+      placeholder: "Allow users to reset their password from the login screen..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: value
+    attributes:
+      label: Value Proposition
+      description: Why is this feature useful? Who does it benefit?
+      placeholder: "It improves user experience and reduces support requests."
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Suggested Solution (Optional)
+      description: Describe a potential way to implement the feature.
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional Context
+      description: Add any references, screenshots, or notes to support your request.
+
+  - type: input
+    id: related
+    attributes:
+      label: Related Issues (if any)
+      placeholder: "#456"
+
+  - type: input
+    id: contact
+    attributes:
+      label: Requester (Optional)
+      placeholder: "@your-github-username"
